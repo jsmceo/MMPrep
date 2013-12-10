@@ -74,7 +74,8 @@ challenges:
 
 13. TextMate will open asking for your commit message. A sensible message may
    be: “Challenge 1 completed”. When you are happy with your message, save and
-   close the TextMate window.
+   close the TextMate window. **Don’t prefix your commit message with a `#`, this
+   indicates to git that that line is a comment, and it is ignored.**
 
 14. In Terminal.app type: `git push origin master`
 
